@@ -15,6 +15,10 @@ module.exports = {
 
   plugins: [
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-73380905-3'
+      },
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
